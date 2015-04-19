@@ -6,6 +6,12 @@ Just pass itthe configuration file and the script will generate a bunch of files
 named with the ServerName variable found in each virtual host. 
 Note that repeated entries will generate separate files (http://www.mydomain.com, http://www.mydomain.com-1, …). 
 
+#Usage:
+
+    vhost-split.py <config_file>
+
+---
+
 TODO:  
 The script will also report commented entries.
 
