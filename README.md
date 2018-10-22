@@ -8,7 +8,10 @@ Note that repeated entries will generate separate files (http://www.mydomain.com
 
 ### Usage:
 
-    vhost-split.py <config_file>
+    mkdir workingdir
+    cd workingdir
+    cp /your/apache/config/config_file.conf config_file.conf 
+    python vhost-split.py config_file.conf
 
 ---
 
