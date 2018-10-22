@@ -2,11 +2,11 @@
 Splits an apache vhost file into separate files so you could use them in the 
 Apache folders `sites-available` and `sites-enabled`.
 
-Just pass itthe configuration file and the script will generate a bunch of files
+Just pass the configuration file and the script will generate a bunch of files
 named with the ServerName variable found in each virtual host. 
 Note that repeated entries will generate separate files (http://www.mydomain.com, http://www.mydomain.com-1, …). 
 
-#Usage:
+### Usage:
 
     vhost-split.py <config_file>
 
